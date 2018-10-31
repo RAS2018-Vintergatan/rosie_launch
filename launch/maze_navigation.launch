@@ -1,0 +1,17 @@
+<launch>
+	
+	<!-- launch motor controller -->
+	<include file="$(find rosie_motor_controller)/launch/rosie_motor_controller.launch"/>
+
+	<!-- launch dead reckoning -->
+	<include file="$(find rosie_dead_reckoning)/launch/rosie_dead_reckoning.launch"/>
+
+	<!-- launch object detector -->
+	<include file="$(find rosie_object_detector)/launch/rosie_object_detector.launch"/>
+
+	<!-- launch linear navigator -->
+	<include file="$(find rosie_linear_navigator)/launch/rosie_linear_navigator.launch"/>
+	
+	<!-- launch servo controller -->
+	<include file="$(find rosie_servo_controller)/launch/rosie_servo_controller.launch"/>	
+</launch>

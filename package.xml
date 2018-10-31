@@ -1,0 +1,19 @@
+<package>
+ <name>rosie_launch</name>
+  <version>0.1.0</version>
+  <description>
+    Launch files for Rosie.
+  </description>
+  <license>BSD</license>
+
+  <maintainer email="fhyy@kth.se">Fredrik Hyyrynen</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  <run_depend>rosie_dead_reckoning</run_depend>
+  <run_depend>rosie_motor_controller</run_depend>
+  <run_depend>rosie_linear_navigator</run_depend>
+  <run_depend>rosie_object_detector</run_depend>
+
+</package>
