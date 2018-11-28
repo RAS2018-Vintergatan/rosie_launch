@@ -10,6 +10,6 @@
 	<include file="$(find rosie_map_controller)/launch/rosie_map_localization.launch"/>
 
 	<!-- launch map updater -->
-	<include file="$(find rosie_map_controller)/launch/rosie_map_localization.launch"/>
+	<include file="$(find rosie_map_updater)/launch/rosie_map_updater.launch"/>
 
 </launch>
