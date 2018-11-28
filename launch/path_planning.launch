@@ -1,0 +1,6 @@
+<launch>
+
+	<!-- launch path finder -->
+	<include file="$(find rosie_path_finder)/launch/rosie_path_finder.launch"/>
+
+</launch>

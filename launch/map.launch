@@ -1,0 +1,8 @@
+<launch>
+	<!-- launch map lidar provider -->
+	<include file="$(find rosie_map_controller)/launch/rosie_lidar_reader.launch"/>
+
+	<!-- launch map reader/provider -->
+	<include file="$(find rosie_map_controller)/launch/rosie_map_handling.launch"/>
+
+</launch>

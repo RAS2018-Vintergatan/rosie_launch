@@ -1,0 +1,6 @@
+<launch>
+
+	<!-- launch map localization -->
+	<include file="$(find rosie_map_controller)/launch/rosie_map_localization.launch"/>
+
+</launch>

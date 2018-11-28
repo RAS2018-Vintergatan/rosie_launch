@@ -1,0 +1,15 @@
+<launch>
+	
+	<!-- launch controls -->
+	<include file="$(find rosie_launch)/launch/controls.launch"/>
+
+	<!-- launch map -->
+	<include file="$(find rosie_launch)/launch/map.launch"/>
+
+	<!-- launch slam -->
+	<include file="$(find rosie_launch)/launch/slam.launch"/>
+
+	<-- launch path planning -->
+	<include file="$(find rosie_launch)/launch/path_planning.launch"/>
+
+</launch>
