@@ -1,0 +1,13 @@
+<launch>
+	
+	<!-- launch controls -->
+	<include file="$(find rosie_launch)/launch/controls.launch"/>
+
+	<!-- Testing controller -->
+	<!--include file="$(find rosie_data_center)/launch/rosie_exploring.launch"/>-->
+	<include file="$(find rosie_data_center)/launch/rosie_brain_testing.launch"/>
+
+	<!-- launch slam -->
+	<include file="$(find rosie_launch)/launch/slam.launch"/>
+
+</launch>

@@ -6,4 +6,10 @@
 	<!-- launch slam -->
 	<include file="$(find rosie_launch)/launch/slam.launch"/>
 
+	<!-- launch object detector -->
+	<include file="$(find rosie_object_detector)/launch/rosie_object_detector.launch"/>
+
+	<!-- launch path navigation -->
+	<include file="$(find rosie_path_navigator)/launch/rosie_path_navigator.launch"/>
+
 </launch>
